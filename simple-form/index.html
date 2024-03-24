@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    <h1>HTML form</h1>
+    <form>
+        <div id="fname">
+            <p>
+                <label for="fname">First name: </label>
+                <input class="validate" type="text" id="fname_input" name="fname">
+            </p>
+        </div>
+        <div id="lname">
+            <p>
+                <label for="lname">Last name: </label>
+                <input class="validate" type="text" id="lname_input" name="lname">
+            </p>
+        </div>
+        <div id="email">
+            <p>
+                <label for="email">E-mail: </label>
+                <input class="validate" type="text" id="email_input" name="email">
+            </p>
+        </div>
+        <div id="gender">
+            <p>
+                <input type="radio" name="gender" id="gender_male_option">
+                <label for="male">Male</label>
+            </p>
+            <p>
+                <input type="radio" name="gender" id="gender_female_option" >
+                <label for="female">Female</label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <button id="btn_submit" type="button">
+                    Submit
+                </button>
+                <button id="btn_clear" type="button">
+                    Clear
+                </button>
+            </p>
+        </div>
+    </form>
+</body>
+<script type="text/javascript" src="form.js"></script>
+</html>
