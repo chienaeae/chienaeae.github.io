@@ -20,6 +20,7 @@ submitButton.addEventListener("click", () => {
   valid = validateLname();
   valid = validateEmail();
 
+  console.log("Hello World");
   if (valid) {
     console.log({
       firstName: fnameInput.value,
